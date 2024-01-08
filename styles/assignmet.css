@@ -1,0 +1,66 @@
+/* shared styles */
+
+body{
+  font-family: 'Merriweather', serif;
+}
+
+.header{
+  background-image: url(../resources/Banner\ Image.png);
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  margin-left: 130px;
+  justify-content: center;
+  
+
+}
+
+.title-first{
+  color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+padding-top: 177px;
+font-size: 32px;
+font-weight: 400;
+}
+.title-second{
+  color: #FFF;
+
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+
+}
+.percent{
+  color: #F00;
+
+text-align: center;
+padding-top: 120px;
+font-family: Inter;
+margin-bottom: 30px;
+font-size: 88px;
+font-weight: 700;
+
+}
+.sales{
+  color: #F00;
+text-align: center;
+font-family: Inter;
+margin-bottom: 0px;
+font-size: 24px;
+font-weight: 500;
+
+}
+.categories{
+  color: #070211;
+text-align: center;
+font-family: Inter;
+margin-top: 0px;
+font-size: 48px;
+font-weight: 700;
+}
+.New-year-pic{
+  display: flex;
+  justify-content: center;
+}
