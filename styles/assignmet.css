@@ -1,66 +1,130 @@
 /* shared styles */
 
-body{
+body {
   font-family: 'Merriweather', serif;
 }
 
-.header{
+/* Header related styles */
+
+header {
   background-image: url(../resources/Banner\ Image.png);
   width: 1320px;
   height: 600px;
   border-radius: 16px;
   margin-left: 130px;
   justify-content: center;
-  
+
 
 }
 
-.title-first{
+.title-first {
   color: #FFF;
 
-text-align: center;
-font-family: Merriweather;
-padding-top: 177px;
-font-size: 32px;
-font-weight: 400;
+  text-align: center;
+  font-family: Merriweather;
+  padding-top: 177px;
+  font-size: 32px;
+  font-weight: 400;
 }
-.title-second{
+
+.title-second {
   color: #FFF;
 
-text-align: center;
-font-size: 72px;
-font-weight: 900;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
 
 }
-.percent{
+
+.percent {
   color: #F00;
 
-text-align: center;
-padding-top: 120px;
-font-family: Inter;
-margin-bottom: 30px;
-font-size: 88px;
-font-weight: 700;
+  text-align: center;
+  padding-top: 120px;
+  font-family: Inter;
+  margin-bottom: 30px;
+  font-size: 88px;
+  font-weight: 700;
 
 }
-.sales{
+
+.sales {
   color: #F00;
-text-align: center;
-font-family: Inter;
-margin-bottom: 0px;
-font-size: 24px;
-font-weight: 500;
+  text-align: center;
+  font-family: Inter;
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-weight: 500;
 
 }
-.categories{
+
+.categories {
   color: #070211;
-text-align: center;
-font-family: Inter;
-margin-top: 0px;
-font-size: 48px;
-font-weight: 700;
+  text-align: center;
+  font-family: Inter;
+  margin-top: 0px;
+  font-size: 48px;
+  font-weight: 700;
 }
-.New-year-pic{
+/*Main section styles */
+.New-year-pic {
   display: flex;
   justify-content: center;
+  margin-top: 399px;
+  margin-left: 399px;
+
+  position: relative;
+  width: 802.9px;
+  height: 500px;
+}
+
+.welcome {
+  color: #FFF;
+
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.Welcome-photo {
+  display: flex;
+  background-image: url(../resources/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  margin-left: 140px;
+  margin-top: 150px;
+
+
+}
+
+.welcome-description {
+  color: rgba(255, 255, 255, 0.80);
+  text-align: left;
+  padding-top: 400px;
+  padding-right: 200px;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.twentyfour {
+  padding-top: 120px;
+  padding-right: 50px;
+  width: 319.83px;
+  height: 464.662px;
+}
+.join{
+  color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase
 }
