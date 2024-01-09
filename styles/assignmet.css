@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Merriweather', serif;
+  max-width: 100%;
 }
 
 /* Header related styles */
@@ -243,3 +244,65 @@ font-weight: 400;
   width: 1320px;
   margin-left: 140px;
 }
+
+#functional{
+  color: #070211;
+
+font-family: Inter;
+margin-left: 215px;
+margin-top: 90px;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.hld-sale{
+  color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+#hld{
+  color: #ff0000;
+}
+.sale-dtls{
+  color: rgba(7, 2, 17, 0.60);
+
+
+margin-left: 140px;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+#linethrough{
+  text-decoration: line-through;
+}
+.hld-sale-written{
+ margin-left: 461px;
+ margin-right: 462px;
+}
+.holiday-sale{
+  align-items: center;
+}
+
+.seal{
+  margin-right:140px;
+  margin-right: 1180px;
+  display: flex;
+  background-image: url(../resources/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+#sticker
+{
+  padding-left: 1250px;
+}
+.boxx{
+  background-image: url(../resources/Rectangle\ 2.png);
+  
+}
+.boxx background-image
